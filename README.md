@@ -28,10 +28,15 @@ to get an overview.
 ## Why this package?
 Users may refer to `MoveIt` for end-effector motion planning, but 
 integrating a full planning stack is often unnecessary for simple applications.
+
 Additionally, there are a lot of use cases where direct control in task space is mandatory:
+
 dynamic following of target poses, such as **visual servoing**, **teleoperation**, **Cartesian teaching,** or
 any form of **closed loop control with external sensors** for physical interactions with environments, such as **Machine Learning** applications.
+
 This package provides such a controller suite for the [ros_control](http://wiki.ros.org/ros_control) framework.
+
+> So this package is a simplified substitute to MoveIt, and force control is added additionally.
 
 ## Installation
 Switch into the `src` folder of your current ROS workspace and
